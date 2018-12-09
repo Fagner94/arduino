@@ -1,16 +1,16 @@
 #include <ESP8266WiFi.h>
 
 //Nome da sua rede Wifi
-const char* ssid = "Nome da sua rede wifi";
+const char* ssid = "FCAR2";
 
 //Senha da rede
-const char* password = "senha da sua rede wifi";
+const char* password = "22041984";
 
 //IP do ESP (para voce acessar pelo browser - voce TEM que mudar este IP tambem)
-IPAddress ip(192, 168, 43, 50);
+IPAddress ip(192, 168, 4, 1);
 
 //IP do roteador da sua rede wifi
-IPAddress gateway(192, 168, 43, 1);
+IPAddress gateway(10, 0, 0, 1);
 
 //Mascara de rede da sua rede wifi
 IPAddress subnet(255, 255, 255, 0);
